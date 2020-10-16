@@ -8,4 +8,9 @@ feature 'Testing web app runs index' do
     visit('/')
     expect(page).to have_field('names')
   end
+
+  scenario 'can see a submit box' do
+    visit('/')
+    expect(page).to have_button('submit')
+  end
 end

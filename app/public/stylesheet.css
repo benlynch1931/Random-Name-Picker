@@ -2,3 +2,21 @@
   overflow-y: scroll;
   height: 100px;
 }
+
+.form-text, .form-submit  {
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form-list {
+  text-decoration: none;
+}
+
+.submit {
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+
+  text-decoration: none;
+}
