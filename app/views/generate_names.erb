@@ -6,8 +6,12 @@
     <title></title>
   </head>
   <body>
-    <form class="generate-form" action="index.html" method="post">
+    <form class="generate-form" action="/pick-name" method="post">
       <input type="submit" class="generate-name" name="generate-name" value="Generate Name">
     </form>
+
+    <% if @selected_name %>
+    <h1><%= @selected_name %></h1>
+    <% end %>
   </body>
 </html>
